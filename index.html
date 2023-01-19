@@ -1,10 +1,181 @@
+<!DOCTYPE html>
+<html lang="no-nb">
+  <head>
+    <!-- Hei Gisle :) -->
+    
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!doctype html>
-    <html>
-    <head>
-    <title>Test</title>
-    </head>
-    <body>
-    <p>Test</p>
-    </body>
-    </html>
+    <title>Ida og Christer gifter seg!</title>
+    <meta name="description" content="Ida og Christer gifter seg!" />
+
+    <!-- The compiled CSS file -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Web fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Fredoka+One&family=Great+Vibes&family=Karla:wght@200&family=Passions+Conflict&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="grid-center spacing">
+        <h1>Christer og Ida</h1>
+        <p>gifter seg</p>
+        <h2>23.06.23</h2>
+        <img src="./img/collage.jpg" class="desktop" />
+        <img src="./img/collage-1-1.jpg" class="mobile" />
+      </header>
+
+      <!-- Info -->
+      <div class="grid-row">
+        <div>
+          <p>Vielsen starter kl:</p>
+          <h1 class="pink">13:00</h1>
+        </div>
+        <div>
+          <p>Middagen starter kl:</p>
+          <h1 class="pink">16:00</h1>
+        </div>
+      </div>
+
+      <div class="grid-center">
+        <p>Vielse og middag vil finne sted ved lokalene til:</p>
+        <h3>Svensefjøset</h3>
+        <p>Heggveien 5</p>
+        <p>3403 Lier</p>
+
+        <form
+          class="spacing"
+          action="https://docs.google.com/forms/d/e/1FAIpQLScIxSAMHoS5r0IYWWiAahkPcZJ1cyfDFzRGKIrmeEOttMH7bA/formResponse"
+          method="POST"
+        >
+          <h2>RSVP</h2>
+
+          <div class="form-element">
+            <span>Name</span>
+            <input type="text" name="entry.852628924" placeholder="Navn" />
+          </div>
+
+          <div class="form-element radio-buttons">
+            <h4>Kommer du?</h4>
+            <label for="Ja">
+              <span>Ja</span>
+              <input type="radio" name="entry.1200376074" id="Ja" value="Ja" />
+            </label>
+
+            <label for="Nei">
+              <span>Nei</span>
+              <input
+                type="radio"
+                name="entry.1200376074"
+                id="Nei"
+                value="Nei"
+              />
+            </label>
+          </div>
+
+          <div class="form-element">
+            <span>Allergier eller annet vi må vite om?</span>
+            <input
+              type="text"
+              name="entry.2102481571"
+              placeholder="Skriv her"
+            />
+          </div>
+
+          <div class="form-element">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+
+        <h2 class="pink">Praktisk info</h2>
+      </div>
+
+      <div class="grid-row">
+        <div>
+          <h3 class="pink">Transport og Parkering</h3>
+          <p>
+            Det går buss fra Bragernes torg til Hegg skole og Lierbyen
+            bussterminal (linje 61 og 71). Derfra er det ca 5/15 minutter gange
+            til lokalene. Ellers er det godt med Taxier å oppdrive i Drammen.
+            For dere som kjører egen bil er det parkering på området. Lokalene
+            stenger kl. 01:30, og da er eneste mulige transport egen bil eller
+            taxi. Skal dere ta taxi, bestill i god tid på tlf 05060. Det går
+            også en buss fra Lierbyen stasjon til Bragernes torg klokken 00.55
+            (linje 71)
+          </p>
+          <h3 class="pink">Hva med hotell?</h3>
+          <p>
+            Det er flere hoteller i Drammen, men vi har innlosjert oss på
+            Comfort Hotell Union Brygge. For dere som har lyst til å bo samme
+            sted har vi ordnet en god pris, men vi har ikke holdt av rom så da
+            gjelder det å ikke vente for lenge med å bestille. <br /><br />Send
+            en e-post til co.unionbrygge@choice.no eller ring tlf +47 32 21 70
+            00 og oppgi kode GR015608 for å booke; <br />1 130,- for enkeltrom
+            inkl frokost <br />1 215,- for dobbeltrom inkl frokost <br />1 465,-
+            for trippelrom inkl frokost
+          </p>
+        </div>
+
+        <div>
+          <h3 class="pink">Kleskode</h3>
+          <p>Pent antrekk</p>
+          <h3 class="pink">Kan jeg ta med barna?</h3>
+          <p>
+            Gjerne ta med barna frem til middagen! Når middagen starter ønsker
+            vi ikke barn tilstede
+          </p>
+          <h3 class="pink">Gaveønsker?</h3>
+          <p>
+            Vi setter aller mest pris på pengegaver, men vi er selvfølgelig
+            utrolig takknemlig for alle gaver
+          </p>
+          <h3 class="pink">Taler</h3>
+          <p>
+            Evt. talere henvender seg til
+            <a href="#toastmaster">toastmaster</a>. Ved mange talere kommer vi
+            til å sette en taletid på 3 minutter, så prøv å holde det kort.
+          </p>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="grid-center spacing">
+        <h2 id="toastmaster" class="pink">Toastmaster:</h2>
+        <h2>Tomas Lyngstad</h2>
+        <p>+47 917 51 950 - epost@epost</p>
+      </div>
+
+      <div class="grid-row">
+        <div class="center-item">
+          <p>Kontakt bruden her:</p>
+          <h3 class="pink">idaly_91 @ hotmail.com</h3>
+          <p class="pink">+47 930 45 059</p>
+        </div>
+
+        <div class="center-item">
+          <p>Kontakt brudgommen her:</p>
+          <h3 class="pink">christer.joras @ gmail.com</h3>
+          <p class="pink">+47 406 09 042</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="grid-center">
+        <p>
+          Utviklet av <a href="https://www.joras.no" class="link">Christer</a>.
+          Designet av <a href="https://www.instagram.com/idalyngstad">Ida</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
